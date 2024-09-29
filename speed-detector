@@ -1,0 +1,14 @@
+function checkspeed (speed)
+{
+    const Speedlimit= (70);
+    const demeritpointsper5kmh =(1);
+    if( Speed <= Speedlimit ) {
+        return 'Ok' }
+    else {
+        const excesSpeedlimit = Speed - Speedlimit ;
+        const demeritpoints = Math.floor (excessSpeed /5)*
+        demeritsPer5kmh;console.log("Demerit points:",demeritsPoints)  
+    }
+}
+const carSpeed = 80;
+checkSpeed(carSpeed);

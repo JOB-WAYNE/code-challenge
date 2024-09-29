@@ -1,0 +1,26 @@
+function getGrade(marks) 
+{    // Prompt the user to enter student's marks 
+     let grade= parseInt (prompt)("Enter student marks (0-100");}  
+    const grade = (marks >=0 && marks  <=100)
+    if ( marks>79 ) {
+        return 'A'; // grade A for marks above 79
+    }
+    else if (marks=>60 ) {
+        return 'B'; // grade b for marks between 60 to 79 
+    }
+    else if (marks => 50) {
+        return 'C';// grade C for marks between 50 to 59
+    }
+    else if ( marks => 40) {
+        return 'D';// grade D for marks between 40 to 49
+    }
+    else if (marks < 40 ) {
+        return 'E';// grade e for marks below 40 
+    }
+    else 
+       return 'invalid marks';
+ 
+function main () {
+    // Tell the user the input is valid 
+    console.log("Enter a number between 0 and 100,");
+}
